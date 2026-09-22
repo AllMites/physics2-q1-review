@@ -48,6 +48,10 @@ section.on{display:block}
 .slide::-webkit-scrollbar-thumb{background:var(--ink);border:3px solid var(--paper)}
 .slide>h3:first-child{margin-top:0}
 .slide.title.on{display:flex;flex-direction:column;justify-content:center;overflow:hidden}
+/* The Boss Round carries a band, so repack() tags it .title and it inherits
+   overflow:hidden above, which strands the lower questions. A slide that is
+   also .practice is meant to be worked through: it scrolls, top-aligned. */
+.slide.title.practice.on{display:block;overflow-y:auto}
 html.measuring section{display:block!important}
 html.measuring .slide{display:block!important;height:auto!important;overflow:visible!important;position:absolute;visibility:hidden;left:0;right:0;top:0}
 .contd{font-family:var(--mono);font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:#888;margin-bottom:10px}
