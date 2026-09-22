@@ -15,12 +15,13 @@ waves and simple harmonic motion.
 6. Sinusoidal Nature of Simple Harmonic Motion
 7. The Simple Pendulum
 
-Plus a 12-question self-check and a printable one-page cheat sheet.
+Plus a 12-question self-check and a printable cheat sheet (two columns, about
+two to three A4 pages).
 
 ## Using it
 
 Arrow keys move between slides, up/down jump between topics, `F` toggles
-fullscreen, and `Ctrl+P` prints the cheat sheet. Everything is one
+fullscreen, and `Ctrl+P` prints the cheat sheet and nothing else. Everything is one
 self-contained HTML file with no network dependency, so it works offline.
 
 All nine simulations compute real physics rather than replaying an animation.
